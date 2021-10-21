@@ -1,0 +1,31 @@
+.input {
+  width: 354px;
+  height: 56px;
+  padding: 16px;
+  color: #333333;
+  border: 1px solid #B3CDF8;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-size: 15px;
+  line-height: 23px;
+
+  &:focus {
+    border: 1px solid #5C98F1;
+    outline: none
+  }
+
+  &:invalid {
+    border: 1px solid #d30909;
+    background: url('../../../static/InputInvalid.svg') no-repeat 95% 50%;
+  }
+}
+
+.input_error {
+  color: #d30909;
+  margin-top: 4px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+}
